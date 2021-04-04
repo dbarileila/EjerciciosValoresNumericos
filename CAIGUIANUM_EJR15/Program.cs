@@ -19,7 +19,7 @@ namespace CAIGUIANUM_EJR15
                 Console.Write("Ingrese un valor numérico: ");
                 string ingreso = Console.ReadLine();
 
-                if (int.TryParse(ingreso, out int salida))
+                if (byte.TryParse(ingreso, out byte salida))
                 {
                     Console.WriteLine($"Usted ingreso el número {ingreso} ");
                     break;
