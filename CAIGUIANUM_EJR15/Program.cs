@@ -31,7 +31,7 @@ namespace CAIGUIANUM_EJR15
 
             } while (bl == false);
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
