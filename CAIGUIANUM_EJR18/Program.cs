@@ -27,7 +27,7 @@ namespace CAIGUIANUM_EJR18
                 else
                 {
                     Console.WriteLine($"Número ingresado: {salida}");
-                    Console.WriteLine($"Número redondeado: {Math.Round(salida)}");
+                    Console.WriteLine($"Número redondeado: {Math.Round(salida, 2)}");
                     Console.WriteLine();
                     Console.WriteLine("¿Desea ingresar otro número? (S/N)");
                     var tecla = Console.ReadKey(intercept: true);
